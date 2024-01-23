@@ -4,6 +4,7 @@ import Navbar from "./components/NavBar";
 import { Hero } from "./components/Hero";
 import Featured from "./components/Featured"
 import HeroBottom from "./components/HeroBottom";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <Hero />
     <Featured />
     <HeroBottom />
+    <Footer />
   </div>
   )
 }
