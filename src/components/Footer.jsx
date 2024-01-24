@@ -18,15 +18,16 @@ const Footer = () => {
           {/* <h1>Bell<span className='primary'>Drums</span></h1> */}
         </div>
         <div className='support-section'>
-          
-         
           <div className='support-links'>
             <a href='/'>Contact</a>
-            
-          
           </div>
-           
-        </div>
+          <div className=''>
+            <a href='/'>FAQ</a>
+          </div>
+          <div className='shop-link'>
+            <a href='/'>Catalogue</a>
+          </div>
+          </div>
       </div>
     </div>
   );
