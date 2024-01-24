@@ -1,0 +1,40 @@
+/* Drums.css */
+
+.drums-item {
+  max-height: 800px;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 20px; /* Adjust margin spacing as needed */
+  border: 1px solid #ddd; /* Add border styling if desired */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+}
+
+.carousel-image img {
+  width: 100%; /* Ensure the image takes up the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.drums-details {
+  padding: 10px; /* Adjust padding as needed for details */
+}
+
+.drums-description {
+  font-size: 18px; /* Adjust font size for description */
+  margin-bottom: 8px; /* Add spacing between description and price */
+  color: #333; /* Set text color to desired color */
+}
+
+.drums-price {
+  font-size: 16px; /* Adjust font size for price */
+  color: #555; /* Set text color to desired color */
+}
+
+
+.drum-image-1,
+.drum-image-2,
+.drum-image-3 {
+  width: 100%; /* Make sure the images take the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add a border radius for rounded corners */
+}

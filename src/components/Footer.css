@@ -1,23 +1,13 @@
 /* Footer.css */
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
+
 
 #root {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-.footer {
-  background-color: #fff;
-  color: #fff;
-  padding: 20px;
-  padding-bottom: 20px;
-  margin-top: auto;
-}
 
 .support-links {
   display: flex;
@@ -64,7 +54,7 @@ html, body {
 /* Adjust icon styles as needed */
 .FaFacebook {
   font-size: 35px;
-  color: #000;
+  color: #272727;
   padding-left: 100px;
 
 }

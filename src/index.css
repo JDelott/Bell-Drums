@@ -3,7 +3,13 @@
 :root {
   --primary: #309ab4;
   --background: #f5f8ff;
+ 
 }
+
+#root {
+  flex: 1;
+}
+
 
 .primary {
   color: var(--primary);
@@ -36,7 +42,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
+
+.footer {
+  background-color: #fff;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

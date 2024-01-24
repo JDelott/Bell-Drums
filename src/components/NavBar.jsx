@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './NavBar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../assets/logo.png';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,7 +15,9 @@ const handleClick = () => setClick(!click)
         <div className='header'>
             <div className='container'>
             <div className='logo'>
+            <Link to="/">
                 <img src={logo} alt='Logo' />
+            </Link>
             </div>
             {/* <h1>Bell<span className='primary'>Drums</span></h1> */}
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -23,13 +25,13 @@ const handleClick = () => setClick(!click)
                         <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='/'>Drums</a>
+                        <a href='/drums'>Drums</a>
                     </li>
                     <li>
-                        <a href='/'>About</a>
+                        <a href='/about'>About</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='/contact'>Contact</a>
                     </li>
                 </ul>
                 <div className='btn-group'>
