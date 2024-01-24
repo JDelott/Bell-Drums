@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import SnareHero from '../assets/bellsnarehero.jpeg'
+import SnareHero from '../assets/logo.png'
 
 
 export const Hero = () => {

@@ -11,9 +11,10 @@
     order: 2;
 }
 
-.signup img {
+ img {
     width: 400px;
-    border-radius: 15px;
+    border-radius: 5px;
+
 }
 
 .signup img:hover {

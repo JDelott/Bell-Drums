@@ -8,8 +8,8 @@ const Featured = () => {
         <div className='signup featured'>
             <div className='container'>
                 {/* left */}
-                <div className='right'>
-                    <img src={featuredsnare} alt='snare pic' />
+                <div>
+                    <img src={featuredsnare} alt='snare pic'/>
                 </div>
 
                 {/* right */}

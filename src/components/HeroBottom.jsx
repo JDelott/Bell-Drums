@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeroBottom.css'
 
-import herobottom from '../assets/herobottomsnare.jpeg'
+import herobottom from '../assets/logobw.png'
 
 
 
