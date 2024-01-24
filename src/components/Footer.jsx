@@ -2,14 +2,20 @@
 
 import React from 'react';
 import './Footer.css';
+import logo from '../assets/logo.png';
 
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    
+    <div className='footer line'>
       <div className='container'>
         <div>
-          <h1>Bell<span className='primary'>Drums</span></h1>
+        
+        <div className='logo'>
+                <img src={logo} alt='Logo' />
+            </div>
+          {/* <h1>Bell<span className='primary'>Drums</span></h1> */}
         </div>
         <div className='support-section'>
           
@@ -19,6 +25,7 @@ const Footer = () => {
             
           
           </div>
+           
         </div>
       </div>
     </div>

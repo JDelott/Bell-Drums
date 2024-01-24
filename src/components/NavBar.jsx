@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './NavBar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
-
+import logo from '../assets/logo.png';
 
 
 
@@ -14,7 +14,10 @@ const handleClick = () => setClick(!click)
     return (
         <div className='header'>
             <div className='container'>
-                <h1>Bell<span className='primary'>Drums</span></h1>
+            <div className='logo'>
+                <img src={logo} alt='Logo' />
+            </div>
+            {/* <h1>Bell<span className='primary'>Drums</span></h1> */}
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
                         <a href='/'>Home</a>

@@ -13,7 +13,7 @@ html, body {
 
 
 .footer {
-  background-color: #333;
+  background-color: #fff;
   color: #fff;
   padding: 20px;
   padding-bottom: 20px;
@@ -41,6 +41,14 @@ html, body {
   text-decoration: none;
   margin: 0 10px;
 }
+
+/* Footer.css */
+
+.line {
+  border-top: 1px solid #ccc; /* Adjust color and size as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
 /* .container {
   display: flex;
   justify-content: space-between;
