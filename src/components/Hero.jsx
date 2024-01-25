@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import { Link } from 'react-router-dom'
 import SnareHero from '../assets/logo.png'
 
 
@@ -12,17 +13,20 @@ export const Hero = () => {
             <h1>Get the tone you can only find with Bell Drums</h1>
             <p>Explore all the drums and pricing info</p>
             <div className='input-container'>
-                <button className='btn'> Learn More</button>
+            <Link to="/drums">
+                <button className='btn'>Shop Now</button>
+            </Link>
             </div>
         </div>
-        
+        <Link to='/drums'>
         <div className='right'>
             <div className='img-container'>
+            
                 <img src={SnareHero} alt='snarepic' />
             </div>
 
         </div>
-
+        </Link>
         </div>
     </div>
   )

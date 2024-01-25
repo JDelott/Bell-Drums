@@ -48,10 +48,10 @@ body {
 .footer {
   background-color: #fff;
   color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
   margin-top: auto;
-  margin-bottom: auto;
+  /* margin-bottom: auto; */
   flex-shrink: 0;
 }
 

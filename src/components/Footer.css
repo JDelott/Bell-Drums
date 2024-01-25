@@ -40,7 +40,7 @@
 .support-links a:visited {
   color: rgb(11, 11, 11);
   text-decoration: none;
-  margin-right: 1rem; /* Adjust the margin as needed */
+  margin: 25px
 
 
 }
@@ -49,11 +49,12 @@
 .support-links div {
   display: flex;
   align-items: center; /* Align items horizontally */
+  padding-top: 5px;
 }
 
 /* Adjust icon styles as needed */
 .FaFacebook {
-  font-size: 35px;
+  font-size: 40px;
   color: #272727;
   padding-left: 100px;
 
@@ -63,7 +64,7 @@
 .support-links div {
   display: flex;
   align-items: center; /* Align items horizontally */
-  margin-left: 20px; /* Adjust the margin as needed */
+  margin-left: 35px; /* Adjust the margin as needed */
 }
 
 /* Update the styles for .social-icons container */
@@ -71,10 +72,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-end; /* Align icons to the right */
-  margin-right: 100px; /* Adjust the margin as needed */
 }
 
 .line {
   border-top: 1px solid #ccc; /* Adjust color and size as needed */
-  margin-top: 20px; /* Adjust margin as needed */
 }

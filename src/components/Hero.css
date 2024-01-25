@@ -33,7 +33,16 @@
     max-width: 80%;
     border-radius: 10px;
     margin: auto;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+
+    /* Set initial transform scale */
+    transform: scale(1);
 }
+
+.hero img:hover {
+    transform: scale(1.1); /* Scale the image slightly on hover */
+}
+
 
 @media screen and (max-width: 940px) {
     .hero .container {

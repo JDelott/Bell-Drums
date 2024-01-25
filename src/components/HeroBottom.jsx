@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeroBottom.css'
+import { Link } from 'react-router-dom'
 
 import herobottom from '../assets/logobw.png'
 
@@ -24,8 +25,10 @@ const HeroBottom = () => {
                         </Link>    
                         </div> */}
                         <div className='input-container'>
-                <button className='btn'> Shop Now</button>
-            </div>
+                        <Link to='/drums'>
+                            <button className='btn'> Shop Now</button>
+                        </Link>
+                    </div>
                 </div>
 
             </div>
