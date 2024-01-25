@@ -1,40 +1,52 @@
 /* Drums.css */
+.drum-parent {
+    margin-left: 550px; 
+    padding-bottom: 50px;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column;
+    
+}
+
+.gold-drum .drums-item {
+    margin-top: 20px; /* Adjust the spacing as needed */
+}
+
 
 .drums-item {
-  max-height: 800px;
   max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 20px; /* Adjust margin spacing as needed */
   border: 1px solid #ddd; /* Add border styling if desired */
   border-radius: 8px; /* Add border-radius for rounded corners */
   overflow: hidden; /* Ensure content doesn't overflow */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex; /* Use flexbox to align items vertically */
+  flex-direction: column; /* Stack items vertically */
+  
 }
 
-.carousel-image img {
+.drum-image {
   width: 100%; /* Ensure the image takes up the full width of the container */
   height: auto; /* Maintain aspect ratio */
+  border-radius: 0;
 }
 
 .drums-details {
   padding: 10px; /* Adjust padding as needed for details */
 }
 
-.drums-description {
+.drum-description {
   font-size: 18px; /* Adjust font size for description */
-  margin-bottom: 8px; /* Add spacing between description and price */
+  margin-top: 10px;
+  margin-bottom: 10px; /* Add spacing between description and price */
   color: #333; /* Set text color to desired color */
+  text-align: center;
 }
 
-.drums-price {
+.drum-price {
   font-size: 16px; /* Adjust font size for price */
   color: #555; /* Set text color to desired color */
-}
-
-
-.drum-image-1,
-.drum-image-2,
-.drum-image-3 {
-  width: 100%; /* Make sure the images take the full width of the container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Add a border radius for rounded corners */
+  text-align: center;
 }
