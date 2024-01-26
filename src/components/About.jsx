@@ -8,6 +8,7 @@ const About = () => {
   return (
     <>
       <div className="about-container about-featured">
+      <div className="about-text-container">
         <h1 className="about-title">About Us</h1>
         <p className="about-text">
           Welcome to Bell Drums, your go-to destination for high-quality drum
@@ -24,6 +25,7 @@ const About = () => {
           Explore our catalog, connect with our community, and take your drumming
           skills to the next level with Bell Drums.
         </p>
+      </div>
       </div>
       <Footer className="footer"/>
     </>
