@@ -16,6 +16,8 @@ function DrumCarousel() {
   };
 
   return (
+    <div>
+    <h1> Bell Drums </h1>
     <div className="carousel-container">
      {/* <label className="carousel-label">Bell Drum 1</label> */}
       <div id={`slide${currentSlide}`} className="carousel-item">
@@ -26,14 +28,15 @@ function DrumCarousel() {
          
           
           <label className="carousel-label">Description:</label>
-          <p className="carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className="carousel-description">Bell Drums 14"x6.5" Cast Bronze Snare Drum with Matching Hoops - Trick Throw Off</p>
           <label className="carousel-label">Price:</label>
-          <span className="carousel-price">$10.00</span>
+          <span className="carousel-price">$3200.00</span>
 
         </div>
         <button onClick={prevSlide} className="carousel-button carousel-button-prev">❮</button>
         <button onClick={nextSlide} className="carousel-button carousel-button-next">❯</button>
       </div>
+    </div>
     </div>
   );
 }
