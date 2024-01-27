@@ -5,15 +5,22 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+  
+    
+    
     
 }
+.left{
+      text-align: left;
+}
 
-.hero .left {
+.hero  {
     padding: 1rem;
 }
 
 .hero h1 {
     padding: 1rem 0;
+    text-align: left;
 }
 
 .hero .input-container {
@@ -22,6 +29,7 @@
 
 .hero .right {
     padding: 1rem;
+    
 }
 
 .hero .img-container {
@@ -42,6 +50,11 @@
 .hero img:hover {
     transform: scale(1.1); /* Scale the image slightly on hover */
 }
+/* 
+.button-space{
+  margin-top:0.3rem;
+  margin-left: rem;
+} */
 
 
 @media screen and (max-width: 940px) {

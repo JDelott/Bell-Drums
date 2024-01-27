@@ -8,8 +8,8 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin:auto;
-    margin-top: 100px;
-    margin-bottom: 300px;
+    margin-top: 10rem;
+    margin-bottom: 18rem;
 }
 
 h1 {
@@ -48,4 +48,19 @@ button {
 
 button:hover {
     background-color: #1f7080;
+}
+
+
+.drum-featured {
+    width: 100%;
+    padding: 8rem 0;
+    background-color: var(--background);
+    /* clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%); */
+    background-image: url('../assets/snare-wood.png'); /* Add this line */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Center the background image */
+    position: relative;
+    text-align: center;
+    z-index: 0; /* Set a higher z-index to ensure it's above the ::before pseudo-element */
+
 }

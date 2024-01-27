@@ -40,10 +40,11 @@
     cursor: pointer;
 }
 
+
 .logo img {
   width: 100px; /* Adjust the width of the logo as needed */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 1rem; /* Add margin to separate the logo from the title */
+  text-align: center; /* Add margin to separate the logo from the title */
   padding-top: 10px;
   scroll-padding-bottom: 10px;
 }

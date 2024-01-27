@@ -9,10 +9,10 @@ export const Hero = () => {
     <div className='hero'>
         <div className='container'>
         <div className='left'>
-            <p>Bell Drums, your new favorite snare drum awaits.</p>
-            <h1>Get the tone you can only find with Bell Drums</h1>
+            <p>Bell Drums, your new favorite snare drum awaits...</p>
+            <h1>Find your tone  with Bell Drums</h1>
             <p>Explore all the drums and pricing info</p>
-            <div className='input-container'>
+            <div className='input-container button-space'>
             <Link to="/drums">
                 <button className='btn'>Shop Now</button>
             </Link>

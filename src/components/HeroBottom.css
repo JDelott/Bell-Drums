@@ -3,7 +3,12 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
+}
+
+.white-space{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .signup .left {

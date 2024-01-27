@@ -26,7 +26,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='page-container'>
+    <div className='page-container '>
     <div className="contact-container">
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
@@ -64,7 +64,10 @@ const ContactForm = () => {
       </form>
       
     </div>
-    <Footer />
+    <div className='footer'>
+
+      <Footer />
+    </div>
     </div>
     
   );

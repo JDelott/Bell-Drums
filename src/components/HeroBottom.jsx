@@ -8,7 +8,7 @@ import herobottom from '../assets/logobw.png'
 
 const HeroBottom = () => {
     return (
-        <div className='signup'>
+        <div className='signup white-space'>
             <div className='container'>
                 {/* left */}
                 <div className='left'>
