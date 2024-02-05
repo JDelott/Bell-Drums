@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './NavBar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import logo from '../assets/logo.png';
+import bluelogo from '../assets/bluelogo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -16,7 +16,7 @@ const handleClick = () => setClick(!click)
             <div className='container'>
             <div className='logo'>
             <Link to="/">
-                <img src={logo} alt='Logo' />
+                <img src={bluelogo} alt='Logo' />
             </Link>
             </div>
             {/* <h1>Bell<span className='primary'>Drums</span></h1> */}

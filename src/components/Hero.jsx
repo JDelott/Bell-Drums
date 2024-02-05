@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import { Link } from 'react-router-dom'
-import SnareHero from '../assets/logo.png'
+import bluelogo from '../assets/bluelogo.png'
 
 
 export const Hero = () => {
@@ -22,7 +22,7 @@ export const Hero = () => {
         <div className='right'>
             <div className='img-container'>
             
-                <img src={SnareHero} alt='snarepic' />
+                <img src={bluelogo} alt='snarepic' />
             </div>
 
         </div>

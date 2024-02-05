@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/logo.png';
+import bluelogo from '../assets/bluelogo.png';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaTwitter, FaEbay, FaYoutube  } from 'react-icons/fa'
 
@@ -15,7 +15,7 @@ const Footer = () => {
         <div>
           <div className='logo'>
           <Link to="/">
-            <img src={logo} alt='Logo' />
+            <img src={bluelogo} alt='Logo' />
           </Link>
           </div>
         </div>

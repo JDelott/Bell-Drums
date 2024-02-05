@@ -21,7 +21,7 @@ function DrumCarousel() {
     <div className="carousel-container">
     {/* <h2 className='carousel-h2'> Bell Brass Snare 14x6.5  </h2> */}
       <div id={`slide${currentSlide}`} className="carousel-item">
-     <label className="carousel-label carousel-h2">The Crown</label>
+     <label className="carousel-label carousel-h2">The Grand</label>
         <div className="carousel-image-container">
           <img src={currentSlide === 1 ? image1 : currentSlide === 2 ? image2 : image3} className="carousel-image" alt={`Slide ${currentSlide}`} />
         </div>
